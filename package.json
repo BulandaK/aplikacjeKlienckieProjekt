@@ -1,8 +1,8 @@
 {
-  "name": "projektaplikacje",
+  "name": "projekt",
   "version": "1.0.0",
-  "description": "projekt na zaliczenie 10.12.2020",
-  "main": "server1.js",
+  "description": "opis",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1"
   },
@@ -11,6 +11,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Kamil Bulanda",
+  "author": "",
   "license": "ISC"
 }

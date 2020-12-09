@@ -1,6 +1,6 @@
 var express = require('express')
 var app = express()
-const port = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3000;
 var accesToAdminPage = false;
 
 
@@ -458,6 +458,6 @@ app.post("/sort", function (req, res) {
     }
 })
 
-app.listen(port, function () {
-    console.log("start serwera na porcie " + port)
+app.listen(PORT, function () {
+    console.log("start serwera na porcie " + PORT)
 })
