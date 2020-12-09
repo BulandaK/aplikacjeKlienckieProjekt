@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 70px;
+    background-color: skyblue;
+}
+
+.navigationA {
+    height: 70px;
+    background-color: crimson;
+}
+
+nav>a {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    margin: 25px 0 10px 10px;
+}
+
+nav>a:nth-child(1) {
+    margin-left: 40px;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #ddd;
+    font-size: 6rem;
+
+}
+
+
+
+/* REGISTER PAGE */
+#register {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    background-color: #ddd;
+    position: relative;
+}
+
+#register>.box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#register>.box>label {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+/* LOGIN PAGE */
+#login {
+    width: 400px;
+    height: 400px;
+    background-color: #ddd;
+    margin: 50px auto;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+#login>button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
+/* ADMIN PAGE */
+.adminFeature {
+    width: 100%;
+    height: 40px;
+    background-color: sandybrown;
+}
+
+.adminFeature>a {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    margin: 10px 0 10px 40px;
+}
+
+.tabelka {
+    border: 1px solid black;
+}
